@@ -21,8 +21,8 @@ const Services = () => {
               className="p-6 bg-gray-900 bg-opacity-90 border hover:border-red-600 rounded-lg shadow-lg"
               whileHover={{ scale: 1.05 }}
             >
-              <h3 className="text-xl font-bold mb-4">{service.title}</h3>
-              <p>{service.description}</p>
+              <h3 className="text-xl font-mono font-bold mb-4">{service.title}</h3>
+              <p className="font-mono">{service.description}</p>
             </motion.div>
           ))}
         </div>
